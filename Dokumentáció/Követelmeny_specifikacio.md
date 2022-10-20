@@ -9,9 +9,11 @@
 ## 3. Vágyálomrendszer
 ### - Programunk célja, egy olyan felhasználóbarát eseménykezelő rendszer kialakítása ami a userek kedvére alakítható, személyre szabható és emellett ellátja a szükséges funkciókat is. A felhasználó tud váltani nézetet napi, heti és havi felbontás között. Szín kódolni tudja eseményeit, illetve, hogy milyen időközönként emlékeztessen.
 
-## 4. Jelenlegi üzleti folyamatok modellje
+## 4. Funkcionális követelmények
+### - Csak User Funkciók vannak, van egy Naptár és van egy tervezői nézet. A Naptárnézetben tudja a felhasználó megtekinteni a múlt, jelenlegi és jövő eseményeit. A Tervező nézetben pedig hozzáadni és szerkeszteni tudja azokat. A naptárnézetben saját maga tudja kiválasztani a témát(a naptár témáját), illetve a nézetet. A Tervező nézetben megtudja adni egy eseménynek a pontos dátumát, időtartamát, megjegyzést hozzá.
 
 ## 5. Igényelt üzleti folyamatok modellje
+
 
 ## 6. Követelménylista
 
