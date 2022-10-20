@@ -17,4 +17,13 @@ Azért hogy egyszerűbbé tegyük a felhasználók mindennapjait, létrehozunk e
 
 ## 7. Képernyőterv
 
+## 8. Forgatókönyvek
+
+## 9. Funkció - követelmény megfeleltetése
+
+| Id | Követelmény | Funkció |
+| :---: | --- | --- |
+| K4 | ... | ... |
+
+## 10 Fogalomszótár
 
