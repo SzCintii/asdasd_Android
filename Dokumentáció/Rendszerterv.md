@@ -9,7 +9,7 @@
    * Developer - Major Gergő B.
    * Developer - Verebély Valentin
 
-### 2.3 Ütemterv:
+### 2.2 Ütemterv:
 
 |Funkció                  | Feladat                                | Prioritás | Becslés (nap) | Aktuális becslés (nap) | Eltelt idő (nap) | Becsült idő (nap) |
 |-------------------------|----------------------------------------|-----------|---------------|------------------------|------------------|---------------------|
@@ -21,6 +21,9 @@
 |Program                  |Alapfunkciók elkészítése                |         3 |             8 |                      8 |                8 |                   8 |
 |Program                  |Tesztelés                               |         4 |             2 |                      2 |                2 |                   2 |
      
-
+### 2.3 Mérföldkövek:
+* Alfa-teszt
+* Béta-teszt
+* Prototípus átadása
      
 
