@@ -16,9 +16,10 @@
 
 
 ## 6. Jelenlegi üzleti folyamatok modellje
-### - A legtöbb ehhez hasonló alkalmazás nem kínál elég kényelmes és könnyenkezelhető felületet, vagy megfizethető applikációt a felhasználók számára. 
+### - A legtöbb ehhez hasonló alkalmazás nem kínál elég kényelmes és könnyen kezelhető felületet, vagy megfizethető applikációt a felhasználók számára. Jelenleg minden applikációt teleraknak reklámokkal a szponzorációs pénzek miatt, de ezek nagyon zavaróak főleg akkor amikor az ember sietni kívánna. Ezeken sokszor csak rontani szokott az, hogy offline módban nem lehet használni az applikáció  
 
 ## 7. Igényelt üzleti folyamatok
+### - A felhasználó megnyitja az applikációt 
 
 
 | Id | Modul | Név | Leírás |
