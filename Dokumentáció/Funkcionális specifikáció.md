@@ -27,3 +27,4 @@ Azért hogy egyszerűbbé tegyük a felhasználók mindennapjait, létrehozunk e
 
 ## 10 Fogalomszótár
 
+
