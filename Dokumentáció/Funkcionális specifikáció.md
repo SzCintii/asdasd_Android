@@ -13,3 +13,8 @@ Azért hogy egyszerűbbé tegyük a felhasználók mindennapjait, létrehozunk e
 
 ## 5. Követelménylista
 
+## 6. Használati esetek
+
+## 7. Képernyőterv
+
+
