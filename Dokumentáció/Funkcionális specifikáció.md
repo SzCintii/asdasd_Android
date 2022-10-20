@@ -16,6 +16,6 @@ Azért hogy egyszerűbbé tegyük a felhasználók mindennapjait, létrehozunk e
 ## 6. Használati esetek
 
 ## 7. Képernyőterv
-https://cdn.discordapp.com/attachments/1022516547517943849/1032666786262433854/kepernyoterv.png
+
 
 
