@@ -5,7 +5,7 @@
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek:
-   * Developer - Szatvák Cintia
+   * Developer - Szarvák Cintia
    * Developer - Major Gergő B.
    * Developer - Verebély Valentin
 
@@ -24,6 +24,8 @@
 ### 2.3 Mérföldkövek:
 * Alfa-teszt
 * Béta-teszt
-* Prototípus átadása
+* Idő közbeni bemutatás
+* Végleges teszt
+* Végleges bemutatás
      
 
