@@ -57,7 +57,7 @@
 ### A kód egésze Java nyelven íródik. A kód különböző részeit (UI, funkciók) amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében.
      
 ## 9. Tesztterv:
-### Alfa-teszt:
+### Alfa-teszt
 A teszt elsődleges célja: az eddig meglévő funkcióknak és a különböző androidokkal való kompatibilitásának tesztelése. A tesztet a fejlesztők végzik.
 Az eljárás sikeres, ha különböző androidokon is megfelelően működnek a különböző funkciók. A teszt időtartama egy hét.
 
