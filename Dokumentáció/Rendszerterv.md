@@ -27,5 +27,8 @@
 * Idő közbeni bemutatás
 * Végleges teszt
 * Végleges bemutatás
+
+## 3. Üzleti folyamatok modellje
+### Egy hétköznapi naptár alkalmazás, amiben lehet saját eseményt megadni, kezeli a meglévő ünnepeket és remindert-t tudunk beállítani
      
 
