@@ -44,6 +44,11 @@
 * Téma választás
 * Reminder állítása
 
+## 6. Fizikai környezet
+### Az alkalmazás Android alapú rendszereken fut (okostelefon, táblagép). 
+### Fejlesztői eszköz:
+* Android studio
+
 
      
 
