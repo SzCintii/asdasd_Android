@@ -34,6 +34,7 @@
 ## 4. Követelmények
 * Naptár megjelenítése
 * Saját események tárolása
+* Saját események szerkesztése/módosítása
 * Meglévő ünnepek tárolása
 * Reminder állítása
 * Témák választása
@@ -43,6 +44,7 @@
 * Esemény megadás
 * Téma választás
 * Reminder állítása
+* Saját események szerkesztése/módosítása
 
 ## 6. Fizikai környezet
 ### Az alkalmazás Android alapú rendszereken fut (okostelefon, táblagép). 
@@ -55,8 +57,22 @@
 ### A kód egésze Java nyelven íródik. A kód különböző részeit (UI, funkciók) amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében.
      
 ## 9. Tesztterv:
-### Alfateszt:
+### Alfa-teszt:
 A teszt elsődleges célja: az eddig meglévő funkcióknak és a különböző androidokkal való kompatibilitásának tesztelése. A tesztet a fejlesztők végzik.
 Az eljárás sikeres, ha különböző androidokon is megfelelően működnek a különböző funkciók. A teszt időtartama egy hét.
 
-###
+### Béta-teszt
+Ezt a tesztet nem a fejlesztők végzik.
+Tesztelendő android rendszerek:6.0.0(minimum), vagy újabbak
+Tesztelendő kijelző méretek: 1280x720 (minimum), 1366x768, 1920x1080
+A teszt időtartama egy hét.
+A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a
+fejlesztőknek, probléma/hiba felmerülése esetén.
+Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. Sok hiba esetén a tesztelés ideje elhúzódhat plusz egy héttel.
+
+## Tesztelendő funkciók:
+* Alkalmazás megnyitása
+* Esemény megadás
+* Esemény módosítása
+* Téma kiválasztása
+* Reminder állítása
