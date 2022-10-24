@@ -70,7 +70,7 @@ A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a
 fejlesztőknek, probléma/hiba felmerülése esetén.
 Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. Sok hiba esetén a tesztelés ideje elhúzódhat plusz egy héttel.
 
-## Tesztelendő funkciók:
+### Tesztelendő funkciók:
 * Alkalmazás megnyitása
 * Esemény megadás
 * Esemény módosítása
