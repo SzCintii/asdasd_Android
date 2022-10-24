@@ -25,7 +25,9 @@ Azért hogy egyszerűbbé tegyük a felhasználók mindennapjait, létrehozunk e
 
 | Id | Követelmény | Funkció |
 | :---: | --- | --- |
-| K4 | ... | ... |
+| K1 | Egyszerű | A program egyszerű használata a legfontosabb, de az is egy fontos rész, hogy kinézete és használata is egyszerű, felhasználóbarát legyen. |
+| K2 | Gyorsaság | A megfelelő működése mellett az is egy fontos tényező, hogy a gyorsan, stabilan, kellően megbízható legyen. |
+| K3 | Több esemény hozzáadása egy naphoz | A program képes lesz arra, hogy egy naphoz több eseményt is hozzátudjunk majd adni. |
 
 ## 10 Fogalomszótár
 
