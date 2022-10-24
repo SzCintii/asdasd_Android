@@ -48,7 +48,16 @@
 ### Az alkalmazás Android alapú rendszereken fut (okostelefon, táblagép). 
 ### Fejlesztői eszköz:
 * Android studio
+## 7. Architekturális terv
+### A user interface (UI), illetve a backend, Android studioban készül java kódban, az adatokat pedig JSON obijektumban tároljuk.
 
-
+## 8. Implementációs terv
+### A kód egésze Java nyelven íródik. A kód különböző részeit (UI, funkciók) amennyire csak lehet külön fájlokba írva készítjük, és
+### úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében.
      
+## 9. Tesztterv:
+### Alfateszt:
+A teszt elsődleges célja: az eddig meglévő funkcióknak és a különböző androidokkal való kompatibilitásának tesztelése. A tesztet a fejlesztők végzik.
+Az eljárás sikeres, ha különböző androidokon is megfelelően működnek a különböző funkciók. A teszt időtartama egy hét.
 
+###
