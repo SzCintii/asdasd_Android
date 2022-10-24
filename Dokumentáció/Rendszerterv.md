@@ -30,5 +30,20 @@
 
 ## 3. Üzleti folyamatok modellje
 ### Egy hétköznapi naptár alkalmazás, amiben lehet saját eseményt megadni, kezeli a meglévő ünnepeket és remindert-t tudunk beállítani
+
+## 4. Követelmények
+* Naptár megjelenítése
+* Saját események tárolása
+* Meglévő ünnepek tárolása
+* Reminder állítása
+* Témák választása
+
+## 5. Funkcionális terv
+### Admin és User között nincs különbség ugyanúgy tudják használni az alkalmazást.
+* Esemény megadás
+* Téma választás
+* Reminder állítása
+
+
      
 
