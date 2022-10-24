@@ -16,6 +16,8 @@ Azért hogy egyszerűbbé tegyük a felhasználók mindennapjait, létrehozunk e
 ## 6. Használati esetek
 
 ## 7. Képernyőterv
+<img width="147" alt="kepernyoterv" src="https://user-images.githubusercontent.com/114164351/197583892-70f1c03c-a93c-413a-ac69-0c253b7fa370.png">
+
 
 ## 8. Forgatókönyvek
 
