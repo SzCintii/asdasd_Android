@@ -22,7 +22,7 @@ Azért hogy egyszerűbbé tegyük a felhasználók mindennapjait, létrehozunk e
 | K6 | Funkció| Emlékeztető állítása | Az alkalmazás képes arra, hogy a beállított eseményeket jelezze a felhasználók számára. |
 | K7 | Funkció| Témák választása  |  A felhasználó az alkalmazásban képes megváltoztatni az alkalmazás témáját.|
 ## 6. Használati esetek
-
+Az ADMIN és a FELHASZNÁLÓ között nincsen különbség, ugyanúgy tudják használni az alkalmazást.
 ## 7. Képernyőterv
 <img width="147" alt="kepernyoterv" src="https://user-images.githubusercontent.com/114164351/197583892-70f1c03c-a93c-413a-ac69-0c253b7fa370.png">
 
