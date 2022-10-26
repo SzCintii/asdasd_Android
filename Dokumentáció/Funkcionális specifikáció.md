@@ -12,7 +12,15 @@ A legtöbb ehhez hasonló alkalmazás nem kínál elég kényelmes és könnyen 
 Azért hogy egyszerűbbé tegyük a felhasználók mindennapjait, létrehozunk egy alkalmazást ami a mai kornak megfelelően helyt tud állni az elektronikai világban. A felhasználóknak egyszerű lesz a használata, mivel minden korosztály számára megfelelően fogjuk létrehozni a projektünket. A felhasználóknak hasznos ez az alkalmazás, mert nem kell azon görcsölniük hogy elfelejtetek-e valamit. Illetve tervezni is sokkal könnyebb nekik mert csak megnézik az alkalmazásban, hogy szabadok-e,  éppen ezért már egyből tudni fogják rá a választ. 
 
 ## 5. Követelménylista
-
+| Id | Modul | Név | Leírás |
+| :---: | --- | --- | --- |
+| K1 |Felület | Kezdőképernyő | A felhasználó itt nézheti meg az adott hónap napjait és itt képes a felhasználó új eseményt hozzárendelni a kiválasztott napjához. |
+| K2 |Funkció | Esemény hozzáadása | A felhasználó képes arra, hogy egy eseményt tudjon beírni a nyilvántartó és eseménykezelő alkalmazásba. |
+| K3 |Funkció | Események módosítása   | A felhasználó képes arra, hogy az őáltala megadott eseményeket módosíthatja vagy törölheti is.  |
+| K4 |Funkció | Napi események | A felhasználó itt képes arra, hogy megnézze az őáltala beírt eseményeket. |
+| K5 |Funkció | Meglévő ünnepek tárolása  |  Az alkalmazás képes arra, hogy ünnepeket jelenítsen meg a felhasználók számára.|
+| K6 | Funkció| Emlékeztető állítása | Az alkalmazás képes arra, hogy a beállított eseményeket jelezze a felhasználók számára. |
+| K7 | Funkció| Témák választása  |  A felhasználó az alkalmazásban képes megváltoztatni az alkalmazás témáját.|
 ## 6. Használati esetek
 
 ## 7. Képernyőterv
