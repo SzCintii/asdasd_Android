@@ -19,7 +19,7 @@ Azért hogy egyszerűbbé tegyük a felhasználók mindennapjait, létrehozunk e
 | K3 |Funkció | Események módosítása   | A felhasználó képes arra, hogy az őáltala megadott eseményeket módosíthatja vagy törölheti is.  |
 | K4 |Funkció | Napi események | A felhasználó itt képes arra, hogy megnézze az őáltala beírt eseményeket. |
 | K5 |Funkció | Meglévő ünnepek tárolása  |  Az alkalmazás képes arra, hogy ünnepeket jelenítsen meg a felhasználók számára.|
-| K6 | Funkció| Emlékeztető állítása | Az alkalmazás képes arra, hogy a beállított eseményeket jelezze a felhasználók számára. |
+| K6 | Funkció| Reminder állítása | Az alkalmazás képes arra, hogy a beállított eseményeket jelezze a felhasználók számára. |
 | K7 | Funkció| Témák választása  |  A felhasználó az alkalmazásban képes megváltoztatni az alkalmazás témáját.|
 ## 6. Használati esetek
 Az ADMIN és a FELHASZNÁLÓ között nincsen különbség, ugyanúgy tudják használni az alkalmazást.
@@ -44,5 +44,10 @@ Amint beléptünk az alkalmazásba, megjelenik a képernyőn az adott hónap nap
 | K3 | Több esemény hozzáadása egy naphoz | A program képes lesz arra, hogy egy naphoz több eseményt is hozzátudjunk majd adni. |
 
 ## 10 Fogalomszótár
+ - **Alkalmazás Áruház:** Ennek a segítségével alkalmazásokat, játékokat és digitális tartalmakat tölthetünk le az eszközeinkre.
+ - **Applikáció:** Az angol application szóból szármozik, magyarul alkalmazást jelent. Ez egy magyarosított szó.
+ - **Reminder:** Ez egy angol szó, aminek a jelentése az emlékeztető.
+ - **Kezdőképernyő:** Az alkalmazás elindítása után a felhasználó ezt a képet fogja látni az adott eszközén elsőnek.
+
 
 
