@@ -28,7 +28,13 @@ Az ADMIN és a FELHASZNÁLÓ között nincsen különbség, ugyanúgy tudják ha
 
 
 ## 8. Forgatókönyvek
+Minden felhasználónak az alkalmazás megnyitásakor a kezdőképernyő jelenik meg, melyben látható:
 
+ - Az adott hónap napjai
+ - Téma beállítások
+ - Esemény hozzáadása gomb
+
+Amint beléptünk az alkalmazásba, megjelenik a képernyőn az adott hónap napja. Az esemény hozzáadása gomb segítségével tudunk új eseményt hozzárendel az adott naphoz.  Az eseményhez hozzáadhatunk egy reminder funkciót, ami emlékezteti a felhasználót az előre beírt eseményre. A felhasználó képes arra, hogy az őáltala beírt eseményeket tudja törölni, módosítani. Ezenkívül még a felhasználóknak lehetőségük van arra, hogy az előre megadott témák közöl a számukra megfelelőt állítsák be.
 ## 9. Funkció - követelmény megfeleltetése
 
 | Id | Követelmény | Funkció |
