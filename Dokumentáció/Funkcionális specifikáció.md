@@ -23,8 +23,12 @@ Azért hogy egyszerűbbé tegyük a felhasználók mindennapjait, létrehozunk e
 | K7 | Funkció| Témák választása  |  A felhasználó az alkalmazásban képes megváltoztatni az alkalmazás témáját.|
 ## 6. Használati esetek
 Az ADMIN és a FELHASZNÁLÓ között nincsen különbség, ugyanúgy tudják használni az alkalmazást.
-## 7. Képernyőterv
-<img width="147" alt="kepernyoterv" src="https://user-images.githubusercontent.com/114164351/197583892-70f1c03c-a93c-413a-ac69-0c253b7fa370.png">
+## 7. Képernyőtervek
+![kepernyoterv1](https://user-images.githubusercontent.com/114164351/198313544-1260c9bb-f97f-4229-b8fb-d5e397c4b623.png)
+
+
+![kepernyoterv2](https://user-images.githubusercontent.com/114164351/198309310-12336d6a-1ccd-4bd8-993d-bf57ff02fb86.png)
+
 
 
 ## 8. Forgatókönyvek
