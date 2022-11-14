@@ -30,4 +30,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></CalendarView>
 
+
+    <LinearLayout>
+        android:id="@+id/dayContent"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:orientation="vertical">
+
+        <Button>
+            android:id="@+id/saveTextButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Mentés"
+        </Button>
+
+        <EditText>
+            android:hint="Írj valamit!"
+            android:id="@+id/textInput"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+        </EditText>
+
+    </LinearLayout>
+
+
+
 </LinearLayout>
