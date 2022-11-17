@@ -29,7 +29,7 @@
 | K6 | Funkció | Reminder állítása | Az alkalmazás képes arra, hogy a beállított eseményeket jelezze a felhasználónak, kívánt időpontokban. |
 | K7 | Funkció | Témák választása | A felhasználó az alkalmazásban képes megváltoztatni a user interface témáját. |
 
-## 7. Fogalomtár
+## 8. Fogalomtár
 - **Alkalmazás Áruház:** Ennek a segítségével alkalmazásokat, játékokat és digitális tartalmakat/szoftvereket tölthetünk le az eszközünkre.
 - **Applikáció:** Az angol application szóból származik, magyarul alkamazást jelent. Ez egy magyarosított változata a szónak.
 - **Reminder:** EZ egy angol szó, aminek a jelentése az emlékeztető.
