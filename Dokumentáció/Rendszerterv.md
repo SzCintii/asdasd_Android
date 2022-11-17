@@ -53,19 +53,20 @@
 ## 5. Funkcionális terv
 ### Admin és User között nincs különbség ugyanúgy tudják használni az alkalmazást.
 * Esemény megadás
+* Esemény szerkesztése
 * Téma választás
 * Reminder állítása
 * Saját események szerkesztése/módosítása
 
 ## 6. Fizikai környezet
-### Az alkalmazás Android alapú rendszereken fut (okostelefon, táblagép). 
+### Az alkalmazás Android alapú rendszereken fut (okostelefon, táblagép). Android studio (Dolphin)-ban készül és java nyelven íródik.
 ### Fejlesztői eszköz:
-* Android studio
+* Android studio (dolphin)
 ## 7. Architekturális terv
 ### A user interface (UI), illetve a backend, Android studioban készül java kódban, az adatokat pedig JSON obijektumban tároljuk.
 
 ## 8. Implementációs terv
-### A kód egésze Java nyelven íródik. A kód különböző részeit (UI, funkciók) amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében.
+### A kód egésze Java nyelven íródik. A kód különböző részeit (UI, funkciók) amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és egyszerűbb bővítés érdekében.
      
 ## 9. Tesztterv:
 ### Alfa-teszt
