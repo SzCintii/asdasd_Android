@@ -5,6 +5,7 @@
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek:
+   * Megrendelő - Molnár Viktor
    * Developer - Szarvák Cintia
    * Developer - Major Gergő B.
    * Developer - Verebély Valentin
@@ -22,10 +23,19 @@
 |Program                  |Tesztelés                               |         4 |             2 |                      2 |                2 |                   2 |
      
 ### 2.3 Mérföldkövek:
+* Dokumentáció elkészítése
+* IU létrehozása
+* Gomb és funkciók hozzáadása
+* Service léterhozása
+* Reminder
+* Témák hozzáadása
 * Alfa-teszt
+* Teszt dokumentálása
+* Hibák javítása
 * Béta-teszt
-* Idő közbeni bemutatás
+* Teszt dokumentálása
 * Végleges teszt
+* Teszt dokumentálása
 * Végleges bemutatás
 
 ## 3. Üzleti folyamatok modellje
