@@ -1,9 +1,10 @@
 ﻿# Funkcionális specifikáció
 ## 1. Jelenlegi helyzet leírása
-Az Alkalmazás Áruházban rengeteg ehhez hasonló applikáció található, de azok vagy nem felelnek meg minden felhasználó igénynek, vagy csak szimplán túlárazottak esetleg tele vannak reklámokkal. A mi alkalmazásunk egy felhasználóbarátabb, egyszerűbben kezelhető felületet kínál a mindennapos felhasználásra a fogyasztóknak.
+Az Alkalmazás Áruházban rengeteg ehhez hasonló applikáció található, de azok vagy nem felelnek meg minden felhasználó igénynek, vagy csak szimplán túlárazottak esetleg tele vannak reklámokkal. A mi alkalmazásunk egy felhasználóbarátabb, egyszerűbben kezelhető felületet kínál a mindennapos felhasználásra a fogyasztóknak. Az android alkalmazásunk bárki számára elérhető lesz díjmentesen. Nagyon fontosnak tartjuk ég azt is, hogy az alkalmazásunk folyamatosan fejlődhessen a felhasználók igényei, javaslatai alapján, ezáltal a mi projektünk a felhasználóknak nagyobb valószínűsségel fog tetszeni.
+
 
 ## 2. Vágyállomrendszer leírása
-Programunk célja, egy olyan felhasználóbarát eseménykezelő rendszer kialakítása, ami a userek kedvére alakítható, személyre szabható és emellett ellátja a szükséges funkciókat is. A felhasználó tud váltani nézetet napi, heti és havi felbontás között. Szín kódolni tudja eseményeit, illetve, hogy milyen időközönként emlékeztessen.
+Programunk célja, egy olyan felhasználóbarát eseménykezelő rendszer kialakítása, ami a userek kedvére alakítható, személyre szabható és emellett ellátja a szükséges funkciókat is. A felhasználó tud váltani nézetet napi, heti és havi felbontás között. Szín kódolni tudja eseményeit, illetve, hogy milyen időközönként emlékeztessen. Fontosnak tartjuk azt is, hogy a nyilvántartó és eseménykezelő alkalmazásunk megjelenését, ezért az adott kornak megfelelően fog kinézni.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 A legtöbb ehhez hasonló alkalmazás nem kínál elég kényelmes és könnyen kezelhető felületet, vagy megfizethető applikációt a felhasználók számára. A mai világban már rengeteg mindenre figyelni kell és ez megnehezíti számunkra az életet. Arra, hogy ne mi magunknak kelljen mindig mindenre figyelni, ezáltal sok időt nyerhetünk. A jelenlegi világban a fiatalok egyre fogékonyak és a mi projektünk által segíthetünk számukra megkönnyíteni az ő saját életüket. Ma már minden embernek van telefonja, ezért az android alkalmazásunk sok ember számára vonzó lehet.
@@ -22,7 +23,7 @@ Azért hogy egyszerűbbé tegyük a felhasználók mindennapjait, létrehozunk e
 | K6 | Funkció| Reminder állítása | Az alkalmazás képes arra, hogy a beállított eseményeket jelezze a felhasználók számára. |
 | K7 | Funkció| Témák választása  |  A felhasználó az alkalmazásban képes megváltoztatni az alkalmazás témáját.|
 ## 6. Használati esetek
-Az ADMIN és a FELHASZNÁLÓ között nincsen különbség, ugyanúgy tudják használni az alkalmazást.
+Az ADMIN és a FELHASZNÁLÓ között nincsen különbség, ugyanúgy tudják használni az alkalmazást, mivel a mi a nyilvántartó és eseménykezelő alkalmazásunkban nincsen ADMIN.
 ## 7. Képernyőtervek
 ![kepernyoterv1](https://user-images.githubusercontent.com/114164351/198313544-1260c9bb-f97f-4229-b8fb-d5e397c4b623.png)
 
