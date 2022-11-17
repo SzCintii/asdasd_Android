@@ -1,7 +1,8 @@
 ﻿
 # Rendszerterv
 ## 1. A rendszer célja
-### Egy olyan Android alkalmazást készítünk, ami eseményeket képes kezelni, amit a felhasználó ad meg, illetve ellátja a klasszikus naptár funkcióit. A felület felhasználóbarát, egyszerű és személyre szabható.
+### Egy olyan Android alkalmazást készítünk, ami eseményeket képes kezelni, amit a felhasználó ad meg, illetve ellátja a klasszikus naptár funkcióit, mint alapvető ünnepek előreeltárolása. A felület felhasználóbarát, egyszerű és személyre szabható.
+
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek:
@@ -39,7 +40,7 @@
 * Végleges bemutatás
 
 ## 3. Üzleti folyamatok modellje
-### Egy hétköznapi naptár alkalmazás, amiben lehet saját eseményt megadni, kezeli a meglévő ünnepeket és remindert-t tudunk beállítani
+### Egy hétköznapi naptár alkalmazás, amiben lehet saját eseményt megadni, kezeli a meglévő ünnepeket és remindert-t tudunk beállítani. A legtöbb ehhez hasonló alkalmazás nem kínál elég kényelmes és könnyen kezelhető felületet, vagy megfizethető applikációt a felhasználók számára. Jelenleg minden applikációt teleraknak reklámokkal a szponzorációs pénzek miatt, de ezek nagyon zavaróak főleg akkor amikor az ember sietni kívánna. Ezeken sokszor csak rontani szokott az, hogy offline módban nem lehet használni az applikáció
 
 ## 4. Követelmények
 * Naptár megjelenítése
