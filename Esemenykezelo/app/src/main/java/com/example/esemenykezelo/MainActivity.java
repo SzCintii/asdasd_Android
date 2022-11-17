@@ -53,23 +53,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //final Button saveTextButton = finViewById(r.id.saveTextButton);
         final Button saveTextButton = findViewById(R.id.saveTextButton);
 
 
-//        saveTextButton.setOnClickListener(new View.OnClickListener()){
-//            @Override
-//            public void onClick(View v){
-//                days[0]=currentDay;
-//                calanderStrings.add(textInput.getText().toString());
-//                textInput.setText("");
-//            }
-//
-//        }
+
         saveTextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                days[0] == currentDay;
+                days[0] = currentDay;
                 calanderStrings.add(textInput.getText().toString());
                 textInput.setText("");
             }
