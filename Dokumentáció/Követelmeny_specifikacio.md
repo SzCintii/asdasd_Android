@@ -27,3 +27,7 @@
 | K1 | ... | ... | ... |
 
 ## 7. Fogalomtár
+- **Alkalmazás Áruház:** Ennek a segítségével alkalmazásokat, játékokat és digitális tartalmakat/szoftvereket tölthetünk le az eszközünkre.
+- **Applikáció:** Az angol application szóból származik, magyarul alkamazást jelent. Ez egy magyarosított változata a szónak.
+- **Reminder:** EZ egy angol szó, aminek a jelentése az emlékeztető.
+- **Kezdőképernyő** Az alkalmazás elindítása után felhasználó ezt a képernyőt fogja látni az eszközén először.
