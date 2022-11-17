@@ -12,13 +12,10 @@
 ## 4. Funkcionális követelmények
 ### - Csak User Funkciók vannak, van egy Naptár és van egy tervezői nézet. A Naptárnézetben tudja a felhasználó megtekinteni a múlt, jelenlegi és jövő eseményeit. A Tervező nézetben pedig hozzáadni és szerkeszteni tudja azokat. A naptárnézetben saját maga tudja kiválasztani a témát(a naptár témáját), illetve a nézetet. A Tervező nézetben megtudja adni egy eseménynek a pontos dátumát, időtartamát, megjegyzést hozzá.
 
-## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
-
-
-## 6. Jelenlegi üzleti folyamatok modellje
+## 5. Jelenlegi üzleti folyamatok modellje
 ### - A legtöbb ehhez hasonló alkalmazás nem kínál elég kényelmes és könnyen kezelhető felületet, vagy megfizethető applikációt a felhasználók számára. Jelenleg minden applikációt teleraknak reklámokkal a szponzorációs pénzek miatt, de ezek nagyon zavaróak főleg akkor amikor az ember sietni kívánna. Ezeken sokszor csak rontani szokott az, hogy offline módban nem lehet használni az applikáció  
 
-## 7. Igényelt üzleti folyamatok
+## 6. Igényelt üzleti folyamatok
 ### - A felhasználó megnyitja az applikációt 
 
 
