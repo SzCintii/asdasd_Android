@@ -18,10 +18,16 @@
 ## 6. Igényelt üzleti folyamatok
 ### - A felhasználó megnyitja az applikációt 
 
-
+## 7. Követelménylista 
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
-| K1 | ... | ... | ... |
+| K1 | Felüelt | Kezdőképernyő | A felhasználó itt nézheti meg az adott hónap napjait és itt képes a felhasználó hozzárendelni új eseményt a kiválasztott naphoz. |
+| K2 | Funkció | Esemény hozzáadása | A felhasználó képes arra, hogy egy eseményt tdjon beírni a nyilvántartó és eseménykezelő alkalmazásba. |
+| K3 | Funkció | Események módosítása | A felhasználó képes arra, hogy az álatala megadot eseményeket módosítsa vagy törölje. |
+| K4 | Funkció | Napi események | A felhasználó itt képes arra, hogy megnézze az általa beírt eseményeket. |
+| K5 | Funkció | Meglévő ünnepek tárolása | Az alkalmazás képes arra, hogy ünnepeket jelenítsen meg a felhasználó számára. |
+| K6 | Funkció | Reminder állítása | Az alkalmazás képes arra, hogy a beállított eseményeket jelezze a felhasználónak, kívánt időpontokban. |
+| K7 | Funkció | Témák választása | A felhasználó az alkalmazásban képes megváltoztatni a user interface témáját. |
 
 ## 7. Fogalomtár
 - **Alkalmazás Áruház:** Ennek a segítségével alkalmazásokat, játékokat és digitális tartalmakat/szoftvereket tölthetünk le az eszközünkre.
