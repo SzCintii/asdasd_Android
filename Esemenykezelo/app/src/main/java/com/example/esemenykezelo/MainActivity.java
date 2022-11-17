@@ -4,8 +4,14 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.CalendarView;
+import android.widget.EditText;
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private int currentYear = 0;
@@ -21,8 +27,9 @@ public class MainActivity extends AppCompatActivity {
         final TextView selectedMonth = findViewById(R.id.selectedMonth);
         final TextView selectedYear = findViewById(R.id.selectedYear);
 
-        final List<string> calanderStrings = new ArrayList<>();
-        int days = new int[30];
+
+        final List<String> calanderStrings = new ArrayList<String>();
+        int[] days = new int[30];
         final EditText textInput = findViewById(R.id.textInput);
         final View dayContent = findViewById(R.id.dayContent);
         calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener()
@@ -36,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 currentYear = year;
                 currentMonth = month;
                 currentDay = dayOfMonth;
-                if(dayContent.getVisibility()==View.GONE){
+                if(dayContent.getVisibility() == View.GONE){
                     dayContent.setVisibility(View.VISIBLE);
                 }
                 if(currentDay==days[0]){
@@ -46,17 +53,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final Button saveTextButton = finViewById(r.id.saveTextButton);
+        //final Button saveTextButton = finViewById(r.id.saveTextButton);
+        final Button saveTextButton = findViewById(R.id.saveTextButton);
 
 
-        saveTextButton.setOnClickListener( new View.OnClickListener()){
+//        saveTextButton.setOnClickListener(new View.OnClickListener()){
+//            @Override
+//            public void onClick(View v){
+//                days[0]=currentDay;
+//                calanderStrings.add(textInput.getText().toString());
+//                textInput.setText("");
+//            }
+//
+//        }
+        saveTextButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                days[0]=currentDay;
+            public void onClick(View view) {
+                days[0] == currentDay;
                 calanderStrings.add(textInput.getText().toString());
                 textInput.setText("");
             }
-
-        }
+        });
     }
 }

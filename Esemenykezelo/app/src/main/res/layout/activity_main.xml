@@ -28,31 +28,29 @@
     <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></CalendarView>
+        android:layout_height="wrap_content"/>
 
 
-    <LinearLayout>
+    <LinearLayout
         android:id="@+id/dayContent"
         android:visibility="gone"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <Button>
+        <Button
             android:id="@+id/saveTextButton"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:text="Mentés"
-        </Button>
+            android:text="Mentés"/>
 
-        <EditText>
+
+        <EditText
             android:hint="Írj valamit!"
             android:id="@+id/textInput"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:textColor="@color/black"
-        </EditText>
-
+            android:textColor="@color/black"/>
     </LinearLayout>
 
 
