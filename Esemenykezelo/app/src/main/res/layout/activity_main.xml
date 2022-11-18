@@ -27,7 +27,7 @@
             android:textColor="@color/black"/>
         <Button
             android:id="@+id/saveTextButton"
-            android:layout_width="60dp"
+            android:layout_width="100dp"
             android:layout_height="40dp"
             android:text="Mentés"/>
     </LinearLayout>
