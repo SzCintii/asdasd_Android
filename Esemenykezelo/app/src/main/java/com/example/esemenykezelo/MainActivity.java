@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     private int currentMonth = 0;
     private int currentDay = 0;
     private int daysIndex = 0;
+    private int monthIndex = 0;
+    private int yearIndex = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
