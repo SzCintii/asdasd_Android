@@ -24,10 +24,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         CalendarView calendarView = findViewById(R.id.calendarView);
-        final TextView selectedDay = findViewById(R.id.selectedDay);
-        final TextView selectedMonth = findViewById(R.id.selectedMonth);
-        final TextView selectedYear = findViewById(R.id.selectedYear);
-
 
         final List<String> calanderStrings = new ArrayList<String>();
         int[] days = new int[30];
