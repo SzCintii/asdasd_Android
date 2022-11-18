@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 for(int i = 0; i < 30; i++)
                 {
                     if(currentDay==days[i]){
-                        textInput.setText(calanderStrings.get(daysIndex-1));
+                        textInput.setText(calanderStrings.get(i));
                     }
                 }
 
@@ -66,8 +66,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 days[daysIndex] = currentDay;
-                daysIndex++;
                 calanderStrings.add(daysIndex, textInput.getText().toString());
+                daysIndex++;
                 textInput.setText("");
             }
         });
