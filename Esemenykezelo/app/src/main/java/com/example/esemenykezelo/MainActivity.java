@@ -51,8 +51,10 @@ public class MainActivity extends AppCompatActivity {
                 {
                     if(currentDay==days[i]){
                         textInput.setText(calanderStrings.get(i));
+                        return;
                     }
                 }
+                textInput.setText("");
 
 
             }
