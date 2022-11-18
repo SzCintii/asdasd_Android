@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private int currentYear = 0;
     private int currentMonth = 0;
     private int currentDay = 0;
+    private int daysIndex = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         saveTextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                days[0] = currentDay;
+                days[daysIndex] = currentDay;
                 calanderStrings.add(textInput.getText().toString());
                 textInput.setText("");
             }
