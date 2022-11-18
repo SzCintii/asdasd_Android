@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 days[daysIndex] = currentDay;
                 daysIndex++;
-                calanderStrings.add(textInput.getText().toString());
+                calanderStrings.add(daysIndex, textInput.getText().toString());
                 textInput.setText("");
             }
         });
