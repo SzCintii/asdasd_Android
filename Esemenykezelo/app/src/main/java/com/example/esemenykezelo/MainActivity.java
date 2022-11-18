@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         final List<String> calanderStrings = new ArrayList<String>();
         final int[] days = new int[30];
         final int[] months = new int[12];
+        final int[] years = new int[10];
 
         final EditText textInput = findViewById(R.id.textInput);
         final View dayContent = findViewById(R.id.dayContent);
