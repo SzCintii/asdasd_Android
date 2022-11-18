@@ -47,9 +47,13 @@ public class MainActivity extends AppCompatActivity {
                 if(dayContent.getVisibility() == View.GONE){
                     dayContent.setVisibility(View.VISIBLE);
                 }
-                if(currentDay==days[0]){
-                    textInput.setText(calanderStrings.get(0));
+                for(int i = 0; i < 30; i++)
+                {
+                    if(currentDay==days[i]){
+                        textInput.setText(calanderStrings.get(daysIndex-1));
+                    }
                 }
+
 
             }
         });
@@ -62,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 days[daysIndex] = currentDay;
+                daysIndex++;
                 calanderStrings.add(textInput.getText().toString());
                 textInput.setText("");
             }
