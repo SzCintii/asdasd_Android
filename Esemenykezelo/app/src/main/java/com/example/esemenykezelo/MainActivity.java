@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
         CalendarView calendarView = findViewById(R.id.calendarView);
 
         final List<String> calanderStrings = new ArrayList<String>();
-        int[] days = new int[30];
+        final int[] days = new int[30];
+        final int[] months = new int[12];
+
         final EditText textInput = findViewById(R.id.textInput);
         final View dayContent = findViewById(R.id.dayContent);
         calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener()
