@@ -47,9 +47,18 @@ public class MainActivity extends AppCompatActivity {
                 }
                 for(int i = 0; i < 30; i++)
                 {
-                    if(currentDay==days[i]){
-                        textInput.setText(calanderStrings.get(i));
-                        return;
+                    if(currentDay==days[i])
+                    {
+                        for (int j = 0; i < 12; j++)
+                        {
+                            if (currentMonth==months[j])
+                            {
+                                textInput.setText(calanderStrings.get(i));
+                                return;
+                            }
+
+                        }
+
                     }
                 }
                 textInput.setText("");
