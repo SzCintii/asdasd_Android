@@ -34,9 +34,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth)
             {
-                selectedDay.setText("Nap: " + dayOfMonth);
-                selectedMonth.setText("Hónap: " + month);
-                selectedYear.setText("Év: " + year);
                 currentYear = year;
                 currentMonth = month;
                 currentDay = dayOfMonth;
