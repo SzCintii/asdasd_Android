@@ -66,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 days[daysIndex] = currentDay;
+                months[monthIndex] = currentMonth;
+                years[yearIndex] = currentYear;
                 calanderStrings.add(daysIndex, textInput.getText().toString());
                 daysIndex++;
                 textInput.setText("");
