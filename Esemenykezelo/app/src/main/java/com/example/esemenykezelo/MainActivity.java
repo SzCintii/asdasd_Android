@@ -70,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
                 years[yearIndex] = currentYear;
                 calanderStrings.add(daysIndex, textInput.getText().toString());
                 daysIndex++;
+                monthIndex++;
+                yearIndex++;
                 textInput.setText("");
             }
         });
