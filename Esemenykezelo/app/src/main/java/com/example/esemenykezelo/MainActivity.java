@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     if(currentDay==days[i])
                     {
-                        for (int j = 0; i < 12; j++)
+                        for (int j = 0; j < 12; j++)
                         {
                             if (currentMonth==months[j])
                             {
@@ -62,14 +62,10 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 textInput.setText("");
-
-
             }
         });
 
         final Button saveTextButton = findViewById(R.id.saveTextButton);
-
-
 
         saveTextButton.setOnClickListener(new View.OnClickListener() {
             @Override
