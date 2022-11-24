@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class MainActivity extends AppCompatActivity {
     private int currentYear = 0;
@@ -74,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 months[monthIndex] = currentMonth;
                 years[yearIndex] = currentYear;
                 calanderStrings.add(daysIndex, textInput.getText().toString());
+                //(Esemeny[])calanderStrings.stream().filter(e -> e.nap == daysIndex).toArray();
                 daysIndex++;
                 monthIndex++;
                 yearIndex++;
