@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_light">
+
     <EditText
         android:layout_width="250dp"
         android:layout_gravity="center"
@@ -11,8 +12,39 @@
         android:background="@android:color/white"
         android:hint="Type event"
         android:textSize="20dp"
+        android:id="@+id/typeevent"
         android:gravity="center"
         android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00:00 AM"
+            android:id="@+id/datetextview"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addeventbtn"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="Add event"
+            >
+
+        </Button>
+
+
+    </LinearLayout>
+
 
 
 </LinearLayout>
