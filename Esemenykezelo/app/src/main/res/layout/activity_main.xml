@@ -29,7 +29,7 @@
             android:id="@+id/saveTextButton"
             android:layout_width="100dp"
             android:layout_height="40dp"
-            android:text="Mentés"/>
+            android:text="Save"/>
     </LinearLayout>
 
 
@@ -38,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/listEventPerDay"
+
         />
 
 </LinearLayout>
