@@ -29,7 +29,7 @@
             android:id="@+id/saveTextButton"
             android:layout_width="100dp"
             android:layout_height="40dp"
-            android:text="Save"/>
+            android:text="Add event"/>
     </LinearLayout>
 
 
