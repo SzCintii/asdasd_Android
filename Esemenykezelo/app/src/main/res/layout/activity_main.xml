@@ -19,12 +19,20 @@
         android:orientation="horizontal">
 
         <EditText
-            android:hint="Írj valamit!"
+            android:hint="Write something!"
             android:id="@+id/textInput"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="40dp"
             android:textColor="@color/black"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:id="@+id/dateInput"
+            android:textColor="@color/black"
+            android:hint="Write date"
+            />
         <Button
             android:id="@+id/saveTextButton"
             android:layout_width="100dp"
@@ -34,11 +42,11 @@
 
 
 
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/listEventPerDay"
+<!--    <ListView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/listEventPerDay"-->
 
-        />
+<!--        />-->
 
 </LinearLayout>

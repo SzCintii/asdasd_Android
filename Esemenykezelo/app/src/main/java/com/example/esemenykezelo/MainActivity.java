@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.zip.Inflater;
@@ -30,12 +31,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         CalendarView calendarView = findViewById(R.id.calendarView);
 
-        final List<String> calanderStrings = new ArrayList<String>();
+        final List<String> calanderStrings = new ArrayList<>();
+        final List<String> calendarDates = new ArrayList<>();
         final int[] days = new int[30];
         final int[] months = new int[12];
         final int[] years = new int[10];
 
         final EditText textInput = findViewById(R.id.textInput);
+        final EditText dateInput = findViewById(R.id.dateInput);
         final View dayContent = findViewById(R.id.dayContent);
         calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener()
         {
@@ -57,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                             if (currentMonth==months[j])
                             {
                                 textInput.setText(calanderStrings.get(i));
+
                                 return;
                             }
 
@@ -65,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 textInput.setText("");
+
             }
         });
 
