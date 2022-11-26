@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
                 dateInput.setText("");
             }
         });
+
     }
     public void OpenAddEventActivity()
     {
