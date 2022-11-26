@@ -31,7 +31,7 @@
             android:layout_weight="1"
             android:id="@+id/dateInput"
             android:textColor="@color/black"
-            android:hint="Write date"
+            android:hint="Write date!"
             />
         <Button
             android:id="@+id/saveTextButton"

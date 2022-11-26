@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                             if (currentMonth==months[j])
                             {
                                 textInput.setText(calanderStrings.get(i));
-
+                                dateInput.setText(calendarDates.get(i));
                                 return;
                             }
 
@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 textInput.setText("");
+                dateInput.setText("");
 
             }
         });
@@ -82,11 +83,13 @@ public class MainActivity extends AppCompatActivity {
                 months[monthIndex] = currentMonth;
                 years[yearIndex] = currentYear;
                 calanderStrings.add(daysIndex, textInput.getText().toString());
+                calendarDates.add(daysIndex, dateInput.getText().toString());
                 //(Esemeny[])calanderStrings.stream().filter(e -> e.nap == daysIndex).toArray();
                 daysIndex++;
                 monthIndex++;
                 yearIndex++;
                 textInput.setText("");
+                dateInput.setText("");
             }
         });
     }
