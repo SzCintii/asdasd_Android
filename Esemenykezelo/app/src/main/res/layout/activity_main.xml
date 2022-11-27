@@ -13,41 +13,55 @@
 
     <LinearLayout
         android:id="@+id/dayContent"
-        android:visibility="gone"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:hint="Event"
+            android:id="@+id/textInput"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:textStyle="italic"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <EditText
-            android:hint="Write something!"
-            android:id="@+id/textInput"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="40dp"
-            android:textColor="@color/black"/>
-        <EditText
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
+            android:textStyle="italic"
             android:id="@+id/dateInput"
             android:textColor="@color/black"
-            android:hint="Write date!"
+            android:hint="Date"
             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
         <Button
             android:id="@+id/saveTextButton"
             android:layout_width="100dp"
             android:layout_height="40dp"
-            android:text="Add event"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:visibility="gone"/>
+            android:textStyle="bold"
+            android:text="Add" />
+
         <Button
+            android:id="@+id/deleteEventButton"
             android:layout_width="100dp"
             android:layout_height="40dp"
-            android:text="Delete"
-            android:id="@+id/deleteEventButton"/>
+            android:textStyle="bold"
+            android:text="Delete" />
 
     </LinearLayout>
 

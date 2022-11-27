@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.zip.Inflater;
@@ -63,19 +64,15 @@ public class MainActivity extends AppCompatActivity {
                                 dateInput.setText(calendarDates.get(i));
                                 return;
                             }
-
                         }
-
                     }
                 }
                 textInput.setText("");
                 dateInput.setText("");
-
             }
         });
 
         final Button saveTextButton = findViewById(R.id.saveTextButton);
-
         saveTextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -92,8 +89,25 @@ public class MainActivity extends AppCompatActivity {
                 dateInput.setText("");
             }
         });
+        final Button deleteEventButton = findViewById(R.id.deleteEventButton);
+        deleteEventButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //days[daysIndex] = currentDay;
+                //months[monthIndex] = currentMonth;
+                //years[yearIndex] = currentYear;
+                calanderStrings.remove(textInput.getText().toString());;
+                calendarDates.remove(dateInput.getText().toString());
+                //daysIndex--;
+                //monthIndex--;
+                //yearIndex--;
+                dateInput.setText("");
+                textInput.setText("");
+            }
+        });
 
     }
+
     public void OpenAddEventActivity()
     {
         Intent intent = new Intent(this, AddEventActivity.class);
