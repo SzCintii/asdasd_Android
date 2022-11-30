@@ -49,7 +49,31 @@ public class MainActivity extends AppCompatActivity {
         final EditText textInput = findViewById(R.id.textInput);
         final EditText dateInput = findViewById(R.id.dateInput);
         final View dayContent = findViewById(R.id.dayContent);
+        chooseTime = findViewById(R.id.dateInput);
+        chooseTime.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                calendar = Calendar.getInstance();
+                currentHour = calendar.get(Calendar.HOUR_OF_DAY);
+                currentMinute = calendar.get(Calendar.MINUTE);
 
+                timePickerDialog = new TimePickerDialog(MainActivity.this, new TimePickerDialog.OnTimeSetListener() {
+                    @Override
+                    public void onTimeSet(TimePicker timePicker, int hourOfDay, int minute) {
+                        if(hourOfDay>=12)
+                        {
+                            amPm = "PM";
+                        }
+                        else
+                        {
+                            amPm = "AM";
+                        }
+                        chooseTime.setText(String.format("%02d:%02d",hourOfDay,minute)+amPm);
+                    }
+                }, currentHour, currentMinute, false);
+                timePickerDialog.show();
+            }
+        });
 
         calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener()
         {
