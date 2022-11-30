@@ -3,6 +3,7 @@ package com.example.esemenykezelo;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.TimePicker;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -25,6 +27,12 @@ public class MainActivity extends AppCompatActivity {
     private int daysIndex = 0;
     private int monthIndex = 0;
     private int yearIndex = 0;
+    EditText chooseTime;
+    TimePickerDialog timePickerDialog;
+    Calendar calendar;
+    int currentHour;
+    int currentMinute;
+    String amPm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
         final EditText textInput = findViewById(R.id.textInput);
         final EditText dateInput = findViewById(R.id.dateInput);
         final View dayContent = findViewById(R.id.dayContent);
+
+
         calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener()
         {
             @Override
