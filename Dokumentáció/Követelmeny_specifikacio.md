@@ -16,7 +16,7 @@
 ### - A legtöbb ehhez hasonló alkalmazás nem kínál elég kényelmes és könnyen kezelhető felületet, vagy megfizethető applikációt a felhasználók számára. Jelenleg minden applikációt teleraknak reklámokkal a szponzorációs pénzek miatt, de ezek nagyon zavaróak főleg akkor amikor az ember sietni kívánna. Ezeken sokszor csak rontani szokott az, hogy offline módban nem lehet használni az applikáció  
 
 ## 6. Igényelt üzleti folyamatok
-### - A felhasználó megnyitja az applikációt 
+### - A felhasználó megnyitja az applikációt, az eseménykezelő naptár felülete fogadja. Rányom a felhasználó egy napra, az kiemelve megjelenik és (ha van) megmtatja a nap eseményeit és az esemény hozzáadás funkciót. Természetesen lehet lapozni évek, hónapok között. Mindezek mellett lehet állítani a színét, témáját az eseménykezelőnek a beágyazott színek szerint. 
 
 ## 7. Követelménylista 
 | Id | Modul | Név | Leírás |
