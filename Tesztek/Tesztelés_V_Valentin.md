@@ -30,6 +30,7 @@ A Béta teszt sikeresen zajlott.
 | Csak a dátum kiválasztása és nem adjuk meg az event nevét. | 2022.12.04. | Elmentse a dátumot és az adott nap rákanttitásánál megjelenítse 00:00 - formátumban.  | Sikeres. | Nincsen. |
 | Dátum kiválasztása és az event nevének megadása. | 2022.12.04. | Elmentse a dátumot és az event nevét és az adott nap rákanttitásánál megjelenítse 00:00 - event név formátumban.  | Sikeres. | Nincsen. |
 | Event törlése. | 2022.12.04. | Törölje az adott eventet és ne jelenítse meg azt a képernyőn.  | Sikeres. | Nincsen. |
+| 2 event hozzáadása egy naphoz. | 2022.12.04. | Hozzáadja és megjelenítse a képernyőn az adott nap rákattintásánál.  | Sikeres. | Nincsen. |
 
 A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
 
