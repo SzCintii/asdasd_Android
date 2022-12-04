@@ -1,53 +1,56 @@
 package com.example.esemenykezelo;
 
-public class Event {
-    String event, time, date, month, year;
 
-    public Event(String event, String time, String date, String month, String year) {
-        this.event = event;
-        this.time = time;
-        this.date = date;
+
+public class Event {
+    private final String name;
+    private final int day, month, year, hour, minute;
+
+    public Event(String name, int minute, int hour, int day, int month, int year) {
+        this.name = name;
+        this.minute = minute;
+        this.hour = hour;
+        this.day = day;
         this.month = month;
         this.year = year;
     }
 
-    public String getEvent() {
-        return event;
+    public String getName() {
+        return name;
     }
 
-    public void setEvent(String event) {
-        this.event = event;
+    public int getDay() {
+        return day;
     }
 
-    public String getTime() {
-        return time;
-    }
-
-    public void setTime(String time) {
-        this.time = time;
-    }
-
-    public String getDate() {
-        return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
-    }
-
-    public String getMonth() {
+    public int getMonth() {
         return month;
     }
 
-    public void setMonth(String month) {
-        this.month = month;
-    }
-
-    public String getYear() {
+    public int getYear() {
         return year;
     }
 
-    public void setYear(String year) {
-        this.year = year;
+    public int getHour() {
+        return hour;
     }
+
+    public int getMinute() {
+        return minute;
+    }
+
+    /**
+     * Taken from LocalDate::compare
+     */
+    public int compareDate(Event other) {
+        int cmp = (year - other.year);
+        if (cmp == 0) {
+            cmp = (month - other.month);
+            if (cmp == 0) {
+                cmp = (day - other.day);
+            }
+        }
+        return cmp;
+    }
+
 }

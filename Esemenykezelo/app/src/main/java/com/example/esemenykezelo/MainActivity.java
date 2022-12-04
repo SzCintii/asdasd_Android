@@ -1,15 +1,20 @@
 package com.example.esemenykezelo;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.TimePickerDialog;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
@@ -17,6 +22,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 import java.util.stream.Collectors;
 import java.util.zip.Inflater;
 
@@ -24,33 +30,23 @@ public class MainActivity extends AppCompatActivity {
     private int currentYear = 0;
     private int currentMonth = 0;
     private int currentDay = 0;
-    private int daysIndex = 0;
-    private int monthIndex = 0;
-    private int yearIndex = 0;
-    EditText chooseTime;
     TimePickerDialog timePickerDialog;
     Calendar calendar;
     int currentHour;
     int currentMinute;
-    String amPm;
+    private LinearLayout linearLayout;
+    private ScrollView scrollView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         CalendarView calendarView = findViewById(R.id.calendarView);
-
-        final List<String> calanderStrings = new ArrayList<>();
-        final List<String> calendarDates = new ArrayList<>();
-        final int[] days = new int[30];
-        final int[] months = new int[12];
-        final int[] years = new int[10];
-
+        scrollView = findViewById(R.id.scrollview);
         final EditText textInput = findViewById(R.id.textInput);
-        final EditText dateInput = findViewById(R.id.dateInput);
+        final Button dateInput = findViewById(R.id.dateInput);
         final View dayContent = findViewById(R.id.dayContent);
-        chooseTime = findViewById(R.id.dateInput);
-        chooseTime.setOnClickListener(new View.OnClickListener() {
+        dateInput.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 calendar = Calendar.getInstance();
@@ -60,15 +56,10 @@ public class MainActivity extends AppCompatActivity {
                 timePickerDialog = new TimePickerDialog(MainActivity.this, new TimePickerDialog.OnTimeSetListener() {
                     @Override
                     public void onTimeSet(TimePicker timePicker, int hourOfDay, int minute) {
-                        if(hourOfDay>=12)
-                        {
-                            amPm = "PM";
-                        }
-                        else
-                        {
-                            amPm = "AM";
-                        }
-                        chooseTime.setText(String.format("%02d:%02d",hourOfDay,minute)+amPm);
+                        currentHour = hourOfDay;
+                        currentMinute = minute;
+
+                        dateInput.setText(String.format("%02d:%02d",hourOfDay,minute));
                     }
                 }, currentHour, currentMinute, false);
                 timePickerDialog.show();
@@ -77,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
         calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener()
         {
+            @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth)
             {
@@ -86,21 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 if(dayContent.getVisibility() == View.GONE){
                     dayContent.setVisibility(View.VISIBLE);
                 }
-                for(int i = 0; i < 30; i++)
-                {
-                    if(currentDay==days[i])
-                    {
-                        for (int j = 0; j < 12; j++)
-                        {
-                            if (currentMonth==months[j])
-                            {
-                                textInput.setText(calanderStrings.get(i));
-                                dateInput.setText(calendarDates.get(i));
-                                return;
-                            }
-                        }
-                    }
-                }
+                UpdateScrollview(year, month, dayOfMonth);
                 textInput.setText("");
                 dateInput.setText("");
             }
@@ -108,43 +86,39 @@ public class MainActivity extends AppCompatActivity {
 
         final Button saveTextButton = findViewById(R.id.saveTextButton);
         saveTextButton.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onClick(View view) {
-                days[daysIndex] = currentDay;
-                months[monthIndex] = currentMonth;
-                years[yearIndex] = currentYear;
-                calanderStrings.add(daysIndex, textInput.getText().toString());
-                calendarDates.add(daysIndex, dateInput.getText().toString());
-                //(Esemeny[])calanderStrings.stream().filter(e -> e.nap == daysIndex).toArray();
-                daysIndex++;
-                monthIndex++;
-                yearIndex++;
+                Event event = new Event(textInput.getText().toString(),currentMinute,currentHour,currentDay,currentMonth,currentYear);
+                EventHandler.add(event);
+                UpdateScrollview(currentYear, currentMonth, currentDay);
                 textInput.setText("");
                 dateInput.setText("");
-            }
-        });
-        final Button deleteEventButton = findViewById(R.id.deleteEventButton);
-        deleteEventButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //days[daysIndex] = currentDay;
-                //months[monthIndex] = currentMonth;
-                //years[yearIndex] = currentYear;
-                calanderStrings.remove(textInput.getText().toString());;
-                calendarDates.remove(dateInput.getText().toString());
-                //daysIndex--;
-                //monthIndex--;
-                //yearIndex--;
-                dateInput.setText("");
-                textInput.setText("");
             }
         });
 
     }
 
-    public void OpenAddEventActivity()
-    {
-        Intent intent = new Intent(this, AddEventActivity.class);
-        startActivity(intent);
+    @RequiresApi(api = Build.VERSION_CODES.N)
+    private void UpdateScrollview(int year, int month, int dayOfMonth) {
+        scrollView.removeAllViews();
+        List<Event> todaysEvents = EventHandler.getEventsOnDate(year, month, dayOfMonth);
+        linearLayout = new LinearLayout(MainActivity.this);
+        linearLayout.setOrientation(LinearLayout.VERTICAL);
+        for (int i = 0; i < todaysEvents.size(); i++) {
+            Event event = todaysEvents.get(i);
+            TextView label = new TextView(MainActivity.this);
+            label.setText(String.format(Locale.getDefault(), "%02d:%02d - %s", event.getHour(), event.getMinute(), event.getName()));
+            int finalI = i;
+            linearLayout.addView(label);
+            label.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    EventHandler.remove(finalI);
+                    UpdateScrollview(year, month, dayOfMonth);
+                }
+            });
+        }
+        scrollView.addView(linearLayout);
     }
 }

@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <EditText
-            android:hint="Event"
+            android:hint="@string/event"
             android:id="@+id/textInput"
             android:layout_width="0dp"
             android:layout_weight="1"
@@ -30,16 +30,29 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        >
 
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/select_time"
             android:textStyle="italic"
+            android:layout_gravity="center"
+            android:textSize="18sp"/>
+
+        <Button
             android:id="@+id/dateInput"
-            android:textColor="@color/black"
-            android:hint="Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="@string/time"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+
             />
     </LinearLayout>
     <LinearLayout
@@ -54,24 +67,20 @@
             android:layout_width="100dp"
             android:layout_height="40dp"
             android:textStyle="bold"
-            android:text="Add" />
-
-        <Button
-            android:id="@+id/deleteEventButton"
-            android:layout_width="100dp"
-            android:layout_height="40dp"
-            android:textStyle="bold"
-            android:text="Delete" />
+            android:text="@string/add" />
 
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollview"
+            />
 
-
-<!--    <ListView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:id="@+id/listEventPerDay"-->
-
-<!--        />-->
+    </LinearLayout>
 
 </LinearLayout>
