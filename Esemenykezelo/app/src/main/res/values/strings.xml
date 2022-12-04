@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Esemenykezelo</string>
+    <string name="add">Add</string>
+    <string name="time">Time</string>
+    <string name="select_time">Select time!</string>
+    <string name="event">Event</string>
 </resources>
