@@ -1,6 +1,6 @@
 Teszteléseket végezte: Vezetéknév Keresztnév
 
-Operációs rendszer: Android Studion (Windows)
+Operációs rendszer: Android Studio (Windows)
 
 
 ## Alfa teszt
@@ -12,5 +12,6 @@ Operációs rendszer: Android Studion (Windows)
 |Time button kattintás. | 2022.12.04. | Óra, perc kiválasztása. | Sikeres. | Nincsen. |
 
 Az Alfa tesztelés során a vizsgált elemek mind hibátlanul működtek mindenféle fennakadások nélkül.
-Az Alfa tesztelés során a vizsgált elemek között volt ami nem megfelelően működött, ez a későbbiek során javításra szorul.
+
+
 
