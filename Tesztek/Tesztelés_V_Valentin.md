@@ -22,7 +22,19 @@ Az Alfa tesztelés során a vizsgált elemek mind hibátlanul működtek mindenf
 | Event beírása és dátum kiválasztása és annak mentése.  | 2022.12.01. | Elmentse az event nevét és a dátumot. | Sikeres. | Nincsen. |
 
 A Béta teszt sikeresen zajlott.
-A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
+
+## Végleges teszt
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Csak az event nevének megadása, nem adunk meg pontos időpontot. | 2022.12.04. | Elmentse a nevet és az adott nap rákanttitásánál megjelenítse 00:00 - event név formátumban.  | Sikeres. | Nincsen. |
+
+A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
+
+Átadásra készen áll a megrendelőnek.
+
+Tesztelést végezte és írta: Vezetéknév Keresztnév
+
+Befejezve: 2022.xx.xx.
 
 
 
