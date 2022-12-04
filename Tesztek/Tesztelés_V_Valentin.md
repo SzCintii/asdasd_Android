@@ -9,6 +9,7 @@ Operációs rendszer: Android Studion (Windows)
 | :---: | --- | --- | --- | --- |
 | Naptár navigáció. | 2022.12.04. | Megfelelően működjön. | Sikeres. | Nincsen. |
 | Event beírása. | 2022.12.04. | Megfelelően működjön. | Sikeres. | Nincsen. |
+|Time button kattintás. | 2022.12.04. | Óra, perc kiválasztása. | Sikeres. | Nincsen. |
 
 Az Alfa tesztelés során a vizsgált elemek mind hibátlanul működtek mindenféle fennakadások nélkül.
 Az Alfa tesztelés során a vizsgált elemek között volt ami nem megfelelően működött, ez a későbbiek során javításra szorul.
