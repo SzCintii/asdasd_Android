@@ -37,9 +37,9 @@ A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikail
 
 Átadásra készen áll a megrendelőnek.
 
-Tesztelést végezte és írta: Vezetéknév Keresztnév
+Tesztelést végezte és írta: Verebélyi Valentin
 
-Befejezve: 2022.xx.xx.
+Befejezve: 2022.12.04.
 
 
 
