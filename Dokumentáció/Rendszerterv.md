@@ -1,10 +1,12 @@
 ﻿
 # Rendszerterv
 ## 1. A rendszer célja
-### Egy olyan Android alkalmazást készítünk, ami eseményeket képes kezelni, amit a felhasználó ad meg, illetve ellátja a klasszikus naptár funkcióit. A felület felhasználóbarát, egyszerű és személyre szabható.
+### Egy olyan Android alkalmazást készítünk, ami eseményeket képes kezelni, amit a felhasználó ad meg, illetve ellátja a klasszikus naptár funkcióit, mint alapvető ünnepek előreeltárolása. A felület felhasználóbarát, egyszerű és személyre szabható.
+
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek:
+   * Megrendelő - Molnár Viktor
    * Developer - Szarvák Cintia
    * Developer - Major Gergő B.
    * Developer - Verebély Valentin
@@ -22,14 +24,23 @@
 |Program                  |Tesztelés                               |         4 |             2 |                      2 |                2 |                   2 |
      
 ### 2.3 Mérföldkövek:
+* Dokumentáció elkészítése
+* IU létrehozása
+* Gomb és funkciók hozzáadása
+* Service léterhozása
+* Reminder
+* Témák hozzáadása
 * Alfa-teszt
+* Teszt dokumentálása
+* Hibák javítása
 * Béta-teszt
-* Idő közbeni bemutatás
+* Teszt dokumentálása
 * Végleges teszt
+* Teszt dokumentálása
 * Végleges bemutatás
 
 ## 3. Üzleti folyamatok modellje
-### Egy hétköznapi naptár alkalmazás, amiben lehet saját eseményt megadni, kezeli a meglévő ünnepeket és remindert-t tudunk beállítani
+### Egy hétköznapi naptár alkalmazás, amiben lehet saját eseményt megadni, kezeli a meglévő ünnepeket és remindert-t tudunk beállítani. A legtöbb ehhez hasonló alkalmazás nem kínál elég kényelmes és könnyen kezelhető felületet, vagy megfizethető applikációt a felhasználók számára. Jelenleg minden applikációt teleraknak reklámokkal a szponzorációs pénzek miatt, de ezek nagyon zavaróak főleg akkor amikor az ember sietni kívánna. Ezeken sokszor csak rontani szokott az, hogy offline módban nem lehet használni az applikáció
 
 ## 4. Követelmények
 * Naptár megjelenítése
@@ -42,19 +53,20 @@
 ## 5. Funkcionális terv
 ### Admin és User között nincs különbség ugyanúgy tudják használni az alkalmazást.
 * Esemény megadás
+* Esemény szerkesztése
 * Téma választás
 * Reminder állítása
 * Saját események szerkesztése/módosítása
 
 ## 6. Fizikai környezet
-### Az alkalmazás Android alapú rendszereken fut (okostelefon, táblagép). 
+### Az alkalmazás Android alapú rendszereken fut (okostelefon, táblagép). Android studio (Dolphin)-ban készül és java nyelven íródik.
 ### Fejlesztői eszköz:
-* Android studio
+* Android studio (dolphin)
 ## 7. Architekturális terv
 ### A user interface (UI), illetve a backend, Android studioban készül java kódban, az adatokat pedig JSON obijektumban tároljuk.
 
 ## 8. Implementációs terv
-### A kód egésze Java nyelven íródik. A kód különböző részeit (UI, funkciók) amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében.
+### A kód egésze Java nyelven íródik. A kód különböző részeit (UI, funkciók) amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és egyszerűbb bővítés érdekében.
      
 ## 9. Tesztterv:
 ### Alfa-teszt
