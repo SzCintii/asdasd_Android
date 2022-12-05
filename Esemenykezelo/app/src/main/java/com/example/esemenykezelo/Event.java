@@ -40,15 +40,13 @@ public class Event {
     }
 
     /**
-     * Taken from LocalDate::compare
+     * Taken from LocalTime::compareTo
      */
-    public int compareDate(Event other) {
-        int cmp = (year - other.year);
+    public int compareTime(Event other)
+    {
+        int cmp = Integer.compare(hour, other.hour);
         if (cmp == 0) {
-            cmp = (month - other.month);
-            if (cmp == 0) {
-                cmp = (day - other.day);
-            }
+            cmp = Integer.compare(minute, other.minute);
         }
         return cmp;
     }

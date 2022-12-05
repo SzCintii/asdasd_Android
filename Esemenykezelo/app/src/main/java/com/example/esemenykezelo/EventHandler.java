@@ -1,14 +1,8 @@
 package com.example.esemenykezelo;
 
-import android.content.Intent;
 import android.os.Build;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +24,7 @@ public class EventHandler {
     public static List<Event> getEventsOnDate(int year, int month, int day) {
         return events.stream().filter(e -> e.getDay() == day
                 && e.getMonth() == month
-                && e.getYear() == year).sorted(Event::compareDate).collect(Collectors.toList());
+                && e.getYear() == year).sorted(Event::compareTime).collect(Collectors.toList());
     }
 
 }
