@@ -4,10 +4,15 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Service;
 import android.app.TimePickerDialog;
+import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
+import android.content.ServiceConnection;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -41,6 +46,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Intent serviceIntent = new Intent(this, ReminderService.class);
+        ServiceConnection serviceConnection = new ServiceConnection(){
+            @Override
+            public void onServiceConnected(ComponentName name, IBinder service){
+            }
+            @Override
+            public void onServiceDisconnected(ComponentName name){
+            }
+        };
+        startService(serviceIntent);
+        bindService(serviceIntent, serviceConnection, Context.BIND_AUTO_CREATE);
         CalendarView calendarView = findViewById(R.id.calendarView);
         scrollView = findViewById(R.id.scrollview);
         final EditText textInput = findViewById(R.id.textInput);
