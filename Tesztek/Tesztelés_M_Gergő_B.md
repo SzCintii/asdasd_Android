@@ -29,9 +29,29 @@ Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzé
 | Esemény beírása időpont megadása nélkül| 2022.12.03. | A beírt esemény megjelenítse 00:00 - formátumban.|  A beírt esemény a várt formában jelent meg| Nincs hiba|
  Esemény beírása időpont megadásával| 2022.12.03. | A beírt eseményhez eltárolta a megadott időpontot|  A beírt esemény a várt formában jelent meg| Nincs hiba|
 
-
-
 A Béta teszt sikeresen zajlott.
 A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
 
 A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra ellenőrzésre kerül. Ezzel együtt az új funkciók is tesztelésre kerültek.
+
+## Végleges teszt
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Calendar View| 2022.12.05. | Az alkalmazásban megjelennek a hónap napjai | Megjelentek a napok | Nincs hiba |
+| Calendar View| 2022.12.05. | Az alkalmazásban megjelennek az évek | Megjeleníti az évet | Nincs hiba |
+| Calendar Navigation| 2022.12.05. | Az alkalmazást lehet lapozni, hónapok, évek szerint| Sikeresen lapozható |Nincs hiba|
+| "Add" button| 2022.12.05. | Az alkalmazásban az 'Add' gombra kattintva esemény adható meg| Az alkalmazásban az esemény megnevezése után az eseményt hozzáadjuk a naptárhoz |Nincs hiba|
+| Idő megadása | 2022.12.05. | Az alkalmazásban óra jelenik meg, amiben kiválaszthatjuk az időt| Az alkalmazásban megjelent az óra | Nincs hiba|
+| Esemény eltárolása| 2022.12.05. | A beírt esemény eltárolásra kerül|  A beírt eseményt sikeresen eltároltuk | Nincs hiba|
+| Esemény törlése| 2022.12.05. | A beírt esemény gomb megnyomására törlésre került|  A beírt esemény törlődött| Nincs hiba|
+| Esemény beírása időpont megadása nélkül| 2022.12.05. | A beírt esemény megjelenítse 00:00 - formátumban.|  A beírt esemény a várt formában jelent meg| Nincs hiba|
+ Esemény beírása időpont megadásával| 2022.12.05. | A beírt eseményhez eltárolta a megadott időpontot|  A beírt esemény a várt formában jelent meg| Nincs hiba|
+Új esemény beírása létező esemény mellé| 2022.12.05. | Az új esemény megjelenik és elmentődik, a régi esemény változatlan marad|Az új esemény és a meglévő is a kívánt formában van| Nincs hiba|
+
+A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
+
+Átadásra készen áll a megrendelőnek.
+
+Tesztelést végezte és írta: Major Gergő B.
+
+Befejezve: 2022.12.05.
