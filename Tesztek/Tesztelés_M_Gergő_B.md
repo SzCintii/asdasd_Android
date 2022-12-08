@@ -20,3 +20,18 @@ Az Alfa tesztelés során a vizsgált elemek mind hibátlanul működtek mindenf
 Az Alfa tesztelés során a vizsgált elemek között volt ami nem megfelelően működött, ez a későbbiek során javításra szorul.
 
 Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzésre
+## Béta teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Esemény eltárolása| 2022.12.03. | A beírt esemény eltárolásra kerül|  A beírt eseményt sikeresen eltároltuk | Nincs hiba|
+| Esemény törlése| 2022.12.03. | A beírt esemény gomb megnyomására törlésre került|  A beírt esemény törlődött| Nincs hiba|
+| Esemény beírása időpont megadása nélkül| 2022.12.03. | A beírt esemény megjelenítse 00:00 - formátumban.|  A beírt esemény a várt formában jelent meg| Nincs hiba|
+ Esemény beírása időpont megadásával| 2022.12.03. | A beírt eseményhez eltárolta a megadott időpontot|  A beírt esemény a várt formában jelent meg| Nincs hiba|
+
+
+
+A Béta teszt sikeresen zajlott.
+A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
+
+A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra ellenőrzésre kerül. Ezzel együtt az új funkciók is tesztelésre kerültek.
