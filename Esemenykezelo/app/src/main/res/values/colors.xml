@@ -15,4 +15,12 @@
     <color name="SteelBlue">#607D8B</color>
     <color name="DarkGrey">#757575</color>
     <color name="LightGrey">#BDBDBD</color>
+
+    <color name="DeepPurple">#512DA8</color>
+    <color name="PastelPurple">#D1C4E9</color>
+    <color name="Purple">#673AB7</color>
+    <color name="Yellow">#FFEB3B</color>
+    <color name="LightYellow">#FFFF5F</color>
+    <color name="Grey65">#656565</color>
+    <color name="LightGreyBC">#BCBCBC</color>
 </resources>
