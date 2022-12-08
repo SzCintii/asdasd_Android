@@ -88,3 +88,11 @@ Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. Sok hiba ese
 * Esemény módosítása
 * Téma kiválasztása
 * Reminder állítása
+
+## 10. Telepítés terv:
+1. Lépjen be a beállításokba
+2. Keresse meg a "telefon névjegye" menüpontot
+3. Azon belül találja a telefon "Build számát"
+4. Érintse meg 7x, a "developer mode" ilyenkor aktiválódik
+5. Azoon belül találja az "USB debugging" pontot, engedélyezze
+6. Android studioban való használatkor az alkalmazás autómatikusan települ a készülékre.
