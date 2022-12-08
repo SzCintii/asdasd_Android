@@ -31,4 +31,12 @@
     <color name="NightBlue">#222448</color>
     <color name="Greyforpink">#656565</color>
     <color name="LightGreyBCforpink">#BCBCBC</color>
+
+    <color name="Red">#D32F2F</color>
+    <color name="Redish">#F44336</color>
+    <color name="PastelRed">#FFCDD2</color>
+    <color name="Crimson">#8B0000</color>
+    <color name="Cursed">#8D7676</color>
+    <color name="GreyForRed">#9E9E9E</color>
+    <color name="LightGreyBCForRed">#BCBCBC</color>
 </resources>
