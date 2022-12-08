@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="Cement">#616161</color>
+    <color name="Whiteish">#F5F5F5</color>
+    <color name="Grey">#9E9E9E</color>
+    <color name="AlmostBlack">#212121</color>
+    <color name="SteelBlue">#607D8B</color>
+    <color name="DarkGrey">#757575</color>
+    <color name="LightGrey">#BDBDBD</color>
 </resources>
