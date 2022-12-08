@@ -23,4 +23,12 @@
     <color name="LightYellow">#FFFF5F</color>
     <color name="Grey65">#656565</color>
     <color name="LightGreyBC">#BCBCBC</color>
+
+    <color name="Pink">#F943FF</color>
+    <color name="PastelPink">#FB9FFE</color>
+    <color name="PurplePink">#673AC7</color>
+    <color name="NavyBlue">#0A0061</color>
+    <color name="NightBlue">#222448</color>
+    <color name="Greyforpink">#656565</color>
+    <color name="LightGreyBCforpink">#BCBCBC</color>
 </resources>
